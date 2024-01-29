@@ -21,7 +21,7 @@ class Test_Registration_Delete():
             login_page.fill_account_info()
             print("Account filled")
 
-        driver.get('https://automationexercise.com/')
+        login_page.open_url('https://automationexercise.com/')
 
         with allure.step("Delete user account"):
             login_page.delete_account()
