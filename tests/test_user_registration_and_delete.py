@@ -4,8 +4,8 @@ from src.pages.login.login_page import LoginPage
 import allure
 
 
+@allure.story('User Registration and Deletion')
 class Test_Registration_Delete():
-    @allure.story('User Registration and Deletion')
     def test_user_registration_and_deleting(self, driver):
         main_page = MainPage(driver)
         login_page = LoginPage(driver)
@@ -27,4 +27,5 @@ class Test_Registration_Delete():
             login_page.delete_account()
             print('Deleted account')
 
-        assert main_page.is_signup_login_button_visible(), "Signup/Login button is not visible after deleting the account"
+        with allure.step("Login button is visible"):
+            assert main_page.is_signup_login_button_visible(), "Signup/Login button is not visible after deleting the account"
