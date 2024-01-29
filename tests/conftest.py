@@ -1,24 +1,25 @@
 import pytest
 from selenium import webdriver
-from pages.ebay_home_page import EbayHomePage
+from src.pages.main.main_page import MainPage
+from src.pages.login.login_page import LoginPage
 
-
-@pytest.fixture(scope="module")
+@pytest.fixture
 def driver():
-    driver = webdriver.Chrome()
-    driver.implicitly_wait(10)
-    driver.maximize_window()
-    yield driver
-    driver.quit()
+    with webdriver.Chrome() as driver:
+        yield driver
 
+@pytest.fixture(autouse=True)
+def open_main_page(driver):
+    main_page = MainPage(driver)
+    main_page.driver.get("https://automationexercise.com/")
+
+@pytest.fixture(scope="module", autouse=True)
+def teardown_module(request):
+    yield
+    print("all is done")
 
 @pytest.fixture
-def ebay_home_page(driver):
-    return EbayHomePage(driver)
+def setup():
+    yield
 
 
-@pytest.fixture
-def setup_teardown(driver):
-    ebay_home_page = EbayHomePage(driver)
-    ebay_home_page.navigate_to_ebay()
-    yield ebay_home_page
