@@ -7,3 +7,6 @@ class BasePage:
 
     def is_visible(self, element):
         return element.is_displayed()
+
+    def open_url(url):
+        self.driver.get(url)
