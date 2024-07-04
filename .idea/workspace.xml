@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d2b725ee-7411-4dfe-b8bb-33746c3c0620" name="Changes" comment="automationexercise.com">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/final_project.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/_locales/bg/messages.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/_locales/cs/messages.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/_locales/da/messages.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/_locales/de/messages.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/_locales/el/messages.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/_locales/en/messages.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/_locales/es/messages.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/_locales/et/messages.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/_locales/fi/messages.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/_locales/fr/messages.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/_locales/he/messages.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/_locales/hr/messages.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/_locales/hu/messages.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/_locales/it/messages.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/_locales/ja/messages.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/_locales/ko/messages.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/_locales/lt/messages.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/_locales/lv/messages.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/_locales/nl/messages.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/_locales/pl/messages.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/_locales/pt_BR/messages.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/_locales/pt_PT/messages.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/_locales/ro/messages.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/_locales/sk/messages.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/_locales/sl/messages.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/_locales/sv/messages.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/actions/addNoticePopup.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/asset-manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/background/block-element.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/background/chrome.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/background/core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/background/lists.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/background/mystats.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/background/notifications.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/background/start.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/background/stndz.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/background/user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/background/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/common/common-background.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/common/common-content.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/common/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/common/output.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/content/chrome.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/content/doc-end.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/content/doc-start.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/content/messaging.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/content/popup-blocking.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/content/ruleApplier.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/content/ruleParser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/content/shadow-dom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/content/sites/adblock_tester.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/content/sites/fb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/content/sites/ig.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/content/sites/stands_cdn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/content/sites/twitch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/content/sites/yt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/donation-form.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/favicon_.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/icons/128.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/icons/19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/icons/19_gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/icons/19_gray_notification.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/icons/19_notification.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/icons/38.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/icons/38_gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/icons/38_gray_notification.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/icons/38_notification.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/icons/48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/icons/58.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/icons/animations/19_gray_notification_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/icons/animations/19_gray_notification_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/icons/animations/19_gray_notification_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/icons/animations/19_gray_notification_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/icons/animations/19_gray_notification_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/icons/animations/19_gray_notification_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/icons/animations/19_gray_notification_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/icons/animations/19_gray_notification_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/icons/animations/19_gray_notification_8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/icons/animations/19_notification_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/icons/animations/19_notification_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/icons/animations/19_notification_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/icons/animations/19_notification_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/icons/animations/19_notification_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/icons/animations/19_notification_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/icons/animations/19_notification_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/icons/animations/19_notification_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/icons/animations/19_notification_8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/icons/animations/38_gray_notification_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/icons/animations/38_gray_notification_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/icons/animations/38_gray_notification_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/icons/animations/38_gray_notification_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/icons/animations/38_gray_notification_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/icons/animations/38_gray_notification_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/icons/animations/38_gray_notification_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/icons/animations/38_gray_notification_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/icons/animations/38_gray_notification_8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/icons/animations/38_notification_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/icons/animations/38_notification_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/icons/animations/38_notification_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/icons/animations/38_notification_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/icons/animations/38_notification_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/icons/animations/38_notification_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/icons/animations/38_notification_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/icons/animations/38_notification_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/icons/animations/38_notification_8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/icons/choose-cause.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/icons/close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/icons/facebook.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/icons/rate-star.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/icons/refresh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/icons/turn-on.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/icons/twitter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/stands-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/static/css/main.8b30f2f7.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/static/css/main.8b30f2f7.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/static/js/668.895f08ae.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/static/js/668.895f08ae.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/static/js/787.4be70d72.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/static/js/787.4be70d72.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/static/js/main.2b361499.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/static/js/main.2b361499.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/static/js/main.2b361499.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/static/media/Chrome-icon.f6b4bf244815175ee6deb644c63dde2c.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/static/media/DMSans-Bold.c423ce2dc1d85bc50799.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/static/media/DMSans-Medium.150680530af9dd9fd00b.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/static/media/DMSans-Regular.4ee96395e07a04577aab.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/static/media/Edge-icon.6ffff578f0c52036be4c0901dac92c7d.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/static/media/FaceIcon0.8d326cae82ef9585ca592e1eb15a67a3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/static/media/FaceIcon1.a036852e54c7afd1f44c7b96158be260.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/static/media/FaceIcon23.1b425b916f899f6e0d9db1dce7c868e0.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/static/media/FaceIcon4.2e18287e8eb52f843bd0f277821bd028.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/static/media/FaceIcon56.75f38a88a8389de45bdf17ff36c1cf9b.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/static/media/Firefox-icon.b8c2a42d587bae0976e1d99f2e1faf51.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/static/media/PayPalLogo.5d7190af169ff402a9a1be49e96c0028.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/static/media/RightArrowIcon.33c51ed65507ac175b7d8c505eaad4ea.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/static/media/Safari-icon.3f15f5540d9ab9ccb327703e2668007a.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/static/media/bagels-icon.e308e520b126490f6143174bc4b619d8.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/static/media/bouquet-icon.c998b9152d0c91fb6309966e5990bc3f.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/static/media/burger-icon.2b1cc40b155ca0552ce677761a304466.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/static/media/burger-menu-icon.637200ebca1ec68f0fa8ce7724a739aa.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/static/media/close-icon.49d93ffd946843e0291f078b741f6b38.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/static/media/coffee-cup-icon.bc35a7344de350718525d41c935ac937.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/static/media/fake_ui.e519bca1cd0c2e56afeaa2973622695f.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/static/media/googleplay.d7c9e6bd74b079e38c994fd669caaa33.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/static/media/health-rectangle-icon.9cc76ab01ad47e6b6ada63c0b9a62132.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/static/media/heart-baloon.ba96143a26c7fc8f958cce8de7652e08.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/static/media/hearth-icon.041d17393d55eb0b0ad8cd5d84bc3c68.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/static/media/helper_icon.92822ccbf81a2cc0ac4af263af4e7dd3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/static/media/pizza-slice-icon.bbac0a3a25dc717b3a0880fe857cd9fd.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/static/media/sites-icons.4d53a0fbcf25d4aa32f9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/static/media/slider-icon.7326be2575b4984c293947c72f805bde.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/static/media/small-popup-icon.33101e2c2b5849f4d266f25f25a9c2c6.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/static/media/stands-icon.49ee2ee214e95cdba607a2408d91843f.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/static/media/stands-logo.93d4010dd33fddc263d2013923c95e22.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/static/media/stands_ui.67db231e0971d942a272.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/static/media/sushi-icon.7d5253d4e3c7158a3a63643c65e90c67.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/static/media/trash-icon.2cf5dae6cb65aa70d4f61227d49f437e.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/static/media/white-checkmark-icon.22e95a3d507be6ef1762247b92839dc5.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/static/media/winebottle-icon.a04bc62547ab2c5806d20ef99b3f0e2a.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/static/media/youtube-icon.14bda96766bb4fa9cb783574a8ab980c.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/views/web_accessible/block-element/view.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/views/web_accessible/common/animate.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/views/web_accessible/common/common.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/views/web_accessible/common/font.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/views/web_accessible/common/jquery-3.0.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/views/web_accessible/fonts/Roboto-Light.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/views/web_accessible/fonts/Roboto-Medium.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/views/web_accessible/images/bug.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/views/web_accessible/images/check.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/views/web_accessible/images/close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/views/web_accessible/images/forward.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/views/web_accessible/images/help.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/views/web_accessible/images/hint.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/views/web_accessible/images/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/views/web_accessible/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/views/web_accessible/images/programmer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/views/web_accessible/images/tiny-v.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/views/web_accessible/images/trash-red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/views/web_accessible/images/trash-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/views/web_accessible/report/report-issue.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/views/web_accessible/report/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/extensions/adblock/1.573_0/views/web_accessible/scripts/twitch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/failures.txt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2ad5VZ93Bz1x3REYQ2XnkWZpCyT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/TOSHIBA TOUCHSCREEN/PycharmProjects/pythonProject1/pythonProject5/tests",
+    "settings.editor.selected.configurable": "terminal"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\TOSHIBA TOUCHSCREEN\PycharmProjects\pythonProject1\pythonProject5\tests" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Python tests for test_contact_us_form.TestContactUs.test_contact_us">
+    <configuration name="test_main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="final_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\TOSHIBA TOUCHSCREEN\PycharmProjects\pythonProject1\pythonProject5\test_main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_contact_us_form.TestContactUs.test_contact_us" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="final_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_contact_us_form.TestContactUs.test_contact_us&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_user_login_with_correct_email_password.TestLoginLogout.test_user_login_logout" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="final_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_user_login_with_correct_email_password.TestLoginLogout.test_user_login_logout&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_verify_scrollup_scrolldown_without_arrow.TestVerifyScrollupAndScrolldownWithoutArrow.test_scrollup_and_scrolldown_func_without_arrow" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="final_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_verify_scrollup_scrolldown_without_arrow.TestVerifyScrollupAndScrolldownWithoutArrow.test_scrollup_and_scrolldown_func_without_arrow&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_view_cart_brand_products.TestViewCartBrandProducts.test_view_cart_brand_products" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="final_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_view_cart_brand_products.TestViewCartBrandProducts.test_view_cart_brand_products&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_view_category_products.TestViewCategoryProducts.test_view_category_products" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="final_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_view_category_products.TestViewCategoryProducts.test_view_category_products&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests for test_contact_us_form.TestContactUs.test_contact_us" />
+        <item itemvalue="Python tests.Python tests for test_user_login_with_correct_email_password.TestLoginLogout.test_user_login_logout" />
+        <item itemvalue="Python tests.Python tests for test_view_category_products.TestViewCategoryProducts.test_view_category_products" />
+        <item itemvalue="Python tests.Python tests for test_view_cart_brand_products.TestViewCartBrandProducts.test_view_cart_brand_products" />
+        <item itemvalue="Python tests.Python tests for test_verify_scrollup_scrolldown_without_arrow.TestVerifyScrollupAndScrolldownWithoutArrow.test_scrollup_and_scrolldown_func_without_arrow" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d2b725ee-7411-4dfe-b8bb-33746c3c0620" name="Changes" comment="" />
+      <created>1704635640086</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1704635640086</updated>
+    </task>
+    <task id="LOCAL-00001" summary="ebay.com webpage">
+      <option name="closed" value="true" />
+      <created>1705873887235</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705873887235</updated>
+    </task>
+    <task id="LOCAL-00002" summary="ebay.com  driver">
+      <option name="closed" value="true" />
+      <created>1705950097208</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705950097208</updated>
+    </task>
+    <task id="LOCAL-00003" summary="src">
+      <option name="closed" value="true" />
+      <created>1706537501794</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1706537501795</updated>
+    </task>
+    <task id="LOCAL-00004" summary="tests">
+      <option name="closed" value="true" />
+      <created>1706537529699</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1706537529699</updated>
+    </task>
+    <task id="LOCAL-00005" summary="automationexercise.com">
+      <option name="closed" value="true" />
+      <created>1720112993811</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1720112993811</updated>
+    </task>
+    <task id="LOCAL-00006" summary="automationexercise.com">
+      <option name="closed" value="true" />
+      <created>1720113787300</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1720113787300</updated>
+    </task>
+    <task id="LOCAL-00007" summary="automationexercise.com">
+      <option name="closed" value="true" />
+      <created>1720118605275</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1720118605275</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ebay.com webpage" />
+    <MESSAGE value="ebay.com  driver" />
+    <MESSAGE value="src" />
+    <MESSAGE value="tests" />
+    <MESSAGE value="automationexercise.com" />
+    <option name="LAST_COMMIT_MESSAGE" value="automationexercise.com" />
+  </component>
+</project>
