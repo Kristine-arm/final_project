@@ -20,22 +20,22 @@ class BaseElement:
         element = self.driver.find_element(By.XPATH, self.xpath)
         actions.move_to_element(element).perform()
 
-    @property
-    def element(self):
-        return self.driver.find_element(By.XPATH, self.locator)
-
-
     def assert_element(self, clickable = False, return_many = False):
         wait = WebDriverWait(self.driver, 10)
         wait.until(EC.presence_of_element_located((By.XPATH, self.xpath)))
+
         if clickable:
             wait.until(EC.element_to_be_clickable((By.XPATH, self.xpath)))
+
         if return_many:
             result = self.driver.find_elements(By.XPATH, self.xpath)
         else:
             result = self.driver.find_element(By.XPATH, self.xpath)
+
         return result
 
+    def find(self):
+        return self.driver.find_element(self.locator)
 
     def find_element(self):
         try:
@@ -53,11 +53,19 @@ class BaseElement:
         else:
             return False
 
+    def hover(self):
+        actions = ActionChains(self.driver)
+        element = self.find_element()
+        actions.move_to_element(element).perform()
+
 
     def send_keys(self, keys):
         element = self.assert_element(clickable=True)
         element.send_keys(keys)
 
+    def text(self):
+        element = self.assert_element()
+        return element.text
 
     def clear(self):
         field = self.assert_element(clickable=True)
@@ -92,87 +100,45 @@ class BaseElement:
         wait.until(EC.text_to_be_present_in_element((By.XPATH, self.xpath), text))
 
     def scroll_into_view(self):
+        """Scrolls the element into view."""
         element = self.assert_element()
         self.driver.execute_script("arguments[0].scrollIntoView();", element)
 
+    # def select_option(self, option):
+    #     """Selects an option from a dropdown menu."""
+    #     element = self.assert_element()
+    #     select = Select(element)
+    #     select.select_by_visible_text(option)
+
     def capture_screenshot(self, filename):
+        """Captures a screenshot of the element."""
         element = self.assert_element()
         element.screenshot(filename)
 
     def double_click(self):
+        """Double clicks on the element."""
         element = self.assert_element()
         ActionChains(self.driver).double_click(element).perform()
 
     def right_click(self):
+        """Right clicks on the element."""
         element = self.assert_element()
         ActionChains(self.driver).context_click(element).perform()
 
     def drag_and_drop(self, target):
+        """Drags the element and drops it onto the target element."""
         source_element = self.assert_element()
         target_element = target.assert_element()
         ActionChains(self.driver).drag_and_drop(source_element, target_element).perform()
 
     def switch_to_frame(self):
+        """Switches to the frame containing the element."""
         element = self.assert_element()
         self.driver.switch_to.frame(element)
 
     def switch_to_default_content(self):
+        """Switches back to the default content from the frame."""
         self.driver.switch_to.default_content()
 
-    def input_text(self, text, clear_first=False):
-        element = self.assert_element(clickable=True)
-        if clear_first:
-            element.clear()
-        element.send_keys(text)
-
-    def find_element(self, wait_type='visible', timeout=10, multiple=False):
-        wait = WebDriverWait(self.driver, timeout)
-        try:
-            if wait_type == 'visible':
-                condition = EC.visibility_of_element_located(self.locator)
-            elif wait_type == 'clickable':
-                condition = EC.element_to_be_clickable(self.locator)
-            elif wait_type == 'present':
-                condition = EC.presence_of_element_located(self.locator)
-            else:
-                raise ValueError("Invalid wait_type specified")
-
-            if multiple:
-                return wait.until(lambda driver: driver.find_elements(*self.locator))
-            else:
-                return wait.until(condition)
-        except TimeoutException:
-            return None
-
-    def is_visible(self, timeout=10):
-        try:
-            WebDriverWait(self.driver, timeout).until(EC.visibility_of_element_located(self.locator))
-            return True
-        except TimeoutException:
-            return False
-
-    def input_text(self, text, clear_first=False):
-        element = self.find_element(wait_type='clickable')
-        if element is None:
-            raise NoSuchElementException(f"Element with locator {self.locator} not found or not clickable.")
-        if clear_first:
-            element.clear()
-        element.send_keys(text)
-
-    def get_elements_text(self):
-        elements = self.locating_elements()
-        return [element.text.strip() for element in elements]
-
-    def locating_elements(self):
-        return self.driver.find_elements(*self.locator)
-
-    @property
-    def text(self):
-        return self.element.text
-
-    def get_text(self):
-        element = self.find_element(wait_type='visible')
-        if element:
-            return element.text.strip()
-        else:
-            return None
+    def find_element(self):
+        pass
