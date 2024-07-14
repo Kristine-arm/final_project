@@ -1,0 +1,40 @@
+name: Automated tests
+
+# Controls when the workflow will run
+on:
+  push:
+    branches: [ master ]  # You can change this to the branch you want to monitor
+  pull_request:
+    branches: [ master ]  # You can change this to the branch you want to monitor
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  build:
+
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v3
+      with:
+        python-version: '3.x'  # Change this to the version of Python you are using
+
+    - name: Set up Chrome
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y wget apt-transport-https
+        wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+        sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" > /etc/apt/sources.list.d/google-chrome.list'
+        sudo apt-get update
+        sudo apt-get install -y google-chrome-stable
+
+    - name: Install dependencies
+      run: pip install -r requirements.txt
+
+    - name: Run tests
+      run: pytest  # Change this to the command you use to run your tests
