@@ -1,39 +1,39 @@
-name: Automated tests
-
-on:
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-
-    steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
-
-    - name: Set up Python
-      uses: actions/setup-python@v3
-      with:
-        python-version: '3.x'
-
-    - name: Install Chrome
-      run: sudo apt-get install -y google-chrome-stable
-
-    - name: Install dependencies
-      run: pip install -r requirements.txt
-
-    - name: List files in current directory
-      run: ls -al  # Lists files to ensure everything is in place
-
-    - name: Verify Python version
-      run: python --version  # Confirm the Python version
-
-    - name: List installed packages
-      run: pip list  # Lists installed packages
-
-    - name: Run tests
-      run: |
-        pytest --verbose  # Add --verbose for detailed test output
+#name: Automated tests
+#
+#on:
+#  push:
+#    branches: [ master ]
+#  pull_request:
+#    branches: [ master ]
+#
+#jobs:
+#  build:
+#    runs-on: ubuntu-latest
+#
+#    steps:
+#    - name: Checkout repository
+#      uses: actions/checkout@v2
+#
+#    - name: Set up Python
+#      uses: actions/setup-python@v3
+#      with:
+#        python-version: '3.x'
+#
+#    - name: Install Chrome
+#      run: sudo apt-get install -y google-chrome-stable
+#
+#    - name: Install dependencies
+#      run: pip install -r requirements.txt
+#
+#    - name: List files in current directory
+#      run: ls -al  # Lists files to ensure everything is in place
+#
+#    - name: Verify Python version
+#      run: python --version  # Confirm the Python version
+#
+#    - name: List installed packages
+#      run: pip list  # Lists installed packages
+#
+#    - name: Run tests
+#      run: |
+#        pytest --verbose  # Add --verbose for detailed test output

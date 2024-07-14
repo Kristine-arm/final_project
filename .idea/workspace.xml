@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2b725ee-7411-4dfe-b8bb-33746c3c0620" name="Changes" comment="automationexercise.com">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/run_tests.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/run_tests.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/base_element.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/base_element.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +43,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "C:/tms2/tmss-lessons",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -51,7 +53,7 @@
       <recent name="C:\Users\TOSHIBA TOUCHSCREEN\PycharmProjects\pythonProject1\pythonProject5\tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_contact_us_form.TestContactUs.test_contact_us">
+  <component name="RunManager" selected="Python tests.pytest for test_user_login_with_correct_email_password.TestLoginLogout.test_user_login_logout">
     <configuration name="test_main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="final_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -73,7 +75,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_contact_us_form.TestContactUs.test_contact_us" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_add_product_in_cart.TestProductInCart.test_add_product_in_cart" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="final_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -82,12 +84,14 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_contact_us_form.TestContactUs.test_contact_us&quot;" />
+      <option name="_new_target" value="&quot;test_add_product_in_cart.TestProductInCart.test_add_product_in_cart&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_user_login_with_correct_email_password.TestLoginLogout.test_user_login_logout" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_login_before_checkout.TestLoginBeforeCheckout.test_login_before_checkout" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="final_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -96,12 +100,30 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_login_before_checkout.TestLoginBeforeCheckout.test_login_before_checkout&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_user_login_with_correct_email_password.TestLoginLogout.test_user_login_logout" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="final_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_user_login_with_correct_email_password.TestLoginLogout.test_user_login_logout&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_verify_scrollup_scrolldown_without_arrow.TestVerifyScrollupAndScrolldownWithoutArrow.test_scrollup_and_scrolldown_func_without_arrow" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_user_register_with_existing_email.TestRegistrationWithExistEmail.test_user_registration_and_deleting" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="final_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -110,46 +132,36 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_user_register_with_existing_email.TestRegistrationWithExistEmail.test_user_registration_and_deleting&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_verify_scrollup_scrolldown_without_arrow.TestVerifyScrollupAndScrolldownWithoutArrow.test_scrollup_and_scrolldown_func_without_arrow" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="final_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_verify_scrollup_scrolldown_without_arrow.TestVerifyScrollupAndScrolldownWithoutArrow.test_scrollup_and_scrolldown_func_without_arrow&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_view_cart_brand_products.TestViewCartBrandProducts.test_view_cart_brand_products" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="final_project" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_view_cart_brand_products.TestViewCartBrandProducts.test_view_cart_brand_products&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_view_category_products.TestViewCategoryProducts.test_view_category_products" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="final_project" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_view_category_products.TestViewCategoryProducts.test_view_category_products&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_contact_us_form.TestContactUs.test_contact_us" />
-        <item itemvalue="Python tests.Python tests for test_user_login_with_correct_email_password.TestLoginLogout.test_user_login_logout" />
-        <item itemvalue="Python tests.Python tests for test_view_category_products.TestViewCategoryProducts.test_view_category_products" />
-        <item itemvalue="Python tests.Python tests for test_view_cart_brand_products.TestViewCartBrandProducts.test_view_cart_brand_products" />
-        <item itemvalue="Python tests.Python tests for test_verify_scrollup_scrolldown_without_arrow.TestVerifyScrollupAndScrolldownWithoutArrow.test_scrollup_and_scrolldown_func_without_arrow" />
+        <item itemvalue="Python tests.pytest for test_user_login_with_correct_email_password.TestLoginLogout.test_user_login_logout" />
+        <item itemvalue="Python tests.pytest for test_verify_scrollup_scrolldown_without_arrow.TestVerifyScrollupAndScrolldownWithoutArrow.test_scrollup_and_scrolldown_func_without_arrow" />
+        <item itemvalue="Python tests.pytest for test_user_register_with_existing_email.TestRegistrationWithExistEmail.test_user_registration_and_deleting" />
+        <item itemvalue="Python tests.pytest for test_add_product_in_cart.TestProductInCart.test_add_product_in_cart" />
+        <item itemvalue="Python tests.pytest for test_login_before_checkout.TestLoginBeforeCheckout.test_login_before_checkout" />
       </list>
     </recent_temporary>
   </component>
