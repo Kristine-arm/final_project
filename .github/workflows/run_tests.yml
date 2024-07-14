@@ -1,20 +1,15 @@
 name: Automated tests
 
-# Controls when the workflow will run
 on:
   push:
-    branches: [ master ]  # You can change this to the branch you want to monitor
+    branches: [ master ]
   pull_request:
-    branches: [ master ]  # You can change this to the branch you want to monitor
+    branches: [ master ]
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   build:
-
-    # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
@@ -22,19 +17,23 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v3
       with:
-        python-version: '3.x'  # Change this to the version of Python you are using
+        python-version: '3.x'
 
-    - name: Set up Chrome
-      run: |
-        sudo apt-get update
-        sudo apt-get install -y wget apt-transport-https
-        wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
-        sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" > /etc/apt/sources.list.d/google-chrome.list'
-        sudo apt-get update
-        sudo apt-get install -y google-chrome-stable
+    - name: Install Chrome
+      run: sudo apt-get install -y google-chrome-stable
 
     - name: Install dependencies
       run: pip install -r requirements.txt
 
+    - name: List files in current directory
+      run: ls -al  # Lists files to ensure everything is in place
+
+    - name: Verify Python version
+      run: python --version  # Confirm the Python version
+
+    - name: List installed packages
+      run: pip list  # Lists installed packages
+
     - name: Run tests
-      run: pytest  # Change this to the command you use to run your tests
+      run: |
+        pytest --verbose  # Add --verbose for detailed test output
